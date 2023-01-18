@@ -25,7 +25,7 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
   config.static = {
-    prefix: '/qcore/',
+    prefix: '/core/',
     dir: path.join(appInfo.baseDir, 'app/public'),
   };
   config.security = {
